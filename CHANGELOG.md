@@ -8,6 +8,31 @@ The format is based on Keep a Changelog:
 This project follows Semantic Versioning:
 <https://semver.org/>
 
+## [1.50.0](https://github.com/dvalfrid/rigstats/compare/v1.49.1...v1.50.0) (2026-10-18)
+
+
+### Features
+
+* **control:** a compact Overview with a Mouse tile, sidebar fits ([#441](https://github.com/dvalfrid/rigstats/issues/441)) ([ba5fb8f](https://github.com/dvalfrid/rigstats/commit/ba5fb8f478b59990960e4726c8dee45d35da4bfc)), closes [#440](https://github.com/dvalfrid/rigstats/issues/440)
+* **control:** live beside Armoury Crate — fans yield to its fan service ([#422](https://github.com/dvalfrid/rigstats/issues/422)) ([91f9a4e](https://github.com/dvalfrid/rigstats/commit/91f9a4e4837f1a83d9514566fd3a27113f805819))
+* **diagnostics:** log mouse and headset reads with their raw replies ([#439](https://github.com/dvalfrid/rigstats/issues/439)) ([122a8fe](https://github.com/dvalfrid/rigstats/commit/122a8feac8b55cd1a636e3e9d3bc8fe7cb3cab73))
+* **headset:** sidetone and noise reduction on a Headset page ([#430](https://github.com/dvalfrid/rigstats/issues/430)) ([ad66824](https://github.com/dvalfrid/rigstats/commit/ad66824301c1c473656a7655516a493899f8745c)), closes [#428](https://github.com/dvalfrid/rigstats/issues/428)
+* **microphone:** level slider and a live level meter ([#429](https://github.com/dvalfrid/rigstats/issues/429)) ([bb85815](https://github.com/dvalfrid/rigstats/commit/bb8581509ad70905fdfe828124ca183f85da60fe)), closes [#427](https://github.com/dvalfrid/rigstats/issues/427)
+* **microphone:** mute the microphone from the tray and Ctrl+Alt+M ([#426](https://github.com/dvalfrid/rigstats/issues/426)) ([985b092](https://github.com/dvalfrid/rigstats/commit/985b092b4696140ace8e15e115879d3d4d89ff1a))
+* **mouse:** a drawing of the mouse that shows which button is which ([#437](https://github.com/dvalfrid/rigstats/issues/437)) ([27ff1a0](https://github.com/dvalfrid/rigstats/commit/27ff1a06c1409098e12d383aee140676cb182465))
+* **mouse:** rebind ROG mouse buttons per onboard profile ([#436](https://github.com/dvalfrid/rigstats/issues/436)) ([3674aac](https://github.com/dvalfrid/rigstats/commit/3674aac334ab5302309eded958fe5d97cfce96c8)), closes [#433](https://github.com/dvalfrid/rigstats/issues/433)
+* **mouse:** ROG mouse settings and an onboard profile per Control Center profile ([#434](https://github.com/dvalfrid/rigstats/issues/434)) ([32198c7](https://github.com/dvalfrid/rigstats/commit/32198c7bb9cda161a1de9780d4238101197ad54d))
+* **mouse:** settings for the older ROG mouse families ([#454](https://github.com/dvalfrid/rigstats/issues/454)) ([e94e8dc](https://github.com/dvalfrid/rigstats/commit/e94e8dc6984261f31bf6c0cb6f2541ef36611907))
+* **notifications:** say so when Windows has turned RIGStats' notifications off ([#450](https://github.com/dvalfrid/rigstats/issues/450)) ([c275c2d](https://github.com/dvalfrid/rigstats/commit/c275c2dc572791dbe4a7f993fc91ee93febd475d))
+
+
+### Bug Fixes
+
+* **alerts:** no low-battery alert while the laptop is charging ([#424](https://github.com/dvalfrid/rigstats/issues/424)) ([0a6ea9f](https://github.com/dvalfrid/rigstats/commit/0a6ea9fd8a085bc88debbce3f83277b95e1cf33c)), closes [#340](https://github.com/dvalfrid/rigstats/issues/340)
+* **mouse:** show ASUS's own product names ([#453](https://github.com/dvalfrid/rigstats/issues/453)) ([71ae178](https://github.com/dvalfrid/rigstats/commit/71ae1783ab01bbde0fa1f558293ce2b71b15d297))
+* **mouse:** take a reply only when it repeats the whole question ([#443](https://github.com/dvalfrid/rigstats/issues/443)) ([3b34fa6](https://github.com/dvalfrid/rigstats/commit/3b34fa6b212b8e8f536c7b56b8ea1b195dc67b87))
+* **notifications:** send notifications as RIGStats, not Windows PowerShell ([#448](https://github.com/dvalfrid/rigstats/issues/448)) ([c10410f](https://github.com/dvalfrid/rigstats/commit/c10410f0fa3f1c8989082c3adec886fcfb8027ea)), closes [#447](https://github.com/dvalfrid/rigstats/issues/447)
+
 ## [1.49.1](https://github.com/dvalfrid/rigstats/compare/v1.49.0...v1.49.1) (2026-10-17)
 
 
